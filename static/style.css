@@ -1,7 +1,9 @@
 body {
   background-color: #E1BEE7;
 }
-
+p {
+  font-size: 16px;
+}
 h1 {
   color: #BBBBBB;
   font-family: Monospace;
@@ -21,10 +23,11 @@ h1 {
 }
 .portfolioSectionWrapper {
   display: grid;
-  gri
   grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
   grid-auto-rows: minmax(200px, auto);
+  align-items: center;
+  margin-left: 20px;
 }
 .one {
   grid-row: 1;
@@ -38,7 +41,7 @@ h1 {
   grid-row: 1;
   grid-column: 3;
 }
-h2 {
+h2, h3 {
   color: #222222;
   font-family: Monospace;
   margin-left: 20px;
@@ -68,7 +71,7 @@ h2 {
 
 .thickGreyBorder {
   border-color: #CCCCCC;
-  border-width: 10px;
+  border-width: 5px;
   border-style: solid;
   border-radius: 50%;
 }
@@ -83,7 +86,9 @@ h2 {
 .topMar12 {
    margin-top: 12px;
 }
-
+.topPadding {
+  padding-top: 30px;
+}
 .topMarAuto {
   margin-top: auto;
   margin-bottom: auto;
@@ -92,7 +97,9 @@ h2 {
 .leftMar10 {
   margin-left: 10px;
 }
-
+.leftMar20 {
+  margin-left: 20px;
+}
 .margin96Pct {
   margin-left: 2%;
   margin-right: 2%;
